@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name="Listeners.TestListener"> </listener>
+    </listeners>
+
+    <test thread-count="5" name="Test">
+        <!--<packages>
+            <package name="com.saucedemo.testscripts."> </package>
+        </packages> -->
+        <!--<classes>
+            <class name="com.saucedemo.testscripts.BaseTest"> </class>
+            <class name="com.saucedemo.testscripts.LockedUserErrorMessageTest"> </class>
+        </classes> -->
+
+        <!--<classes>
+            <class name="com.saucedemo.testscripts.BaseTest"> </class>
+            <class name="com.saucedemo.testscripts.LastNameErrorMessageTest"> </class>
+        </classes> -->
+
+        <!--<classes>
+            <class name="com.saucedemo.testscripts.BaseTest"> </class>
+            <class name="com.saucedemo.testscripts.CheapestProductPurchaseTest"> </class>
+        </classes> -->
+
+        <classes>
+            <class name="com.saucedemo.testscripts.BaseTest"> </class>
+            <class name="com.saucedemo.testscripts.MostExpensiveProductTest"> </class>
+        </classes>
+    </test>
+
+</suite>
